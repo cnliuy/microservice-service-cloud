@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: microservice-serviceprovider-user
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ly
+Implementation-Vendor-Id: com.liuy.cloud
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://projects.spring.io/spring-boot/microservice
+ -service-cloud/microservice-serviceprovider-user/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
