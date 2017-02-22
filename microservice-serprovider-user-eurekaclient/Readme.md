@@ -13,3 +13,6 @@ http://cloud.spring.io/spring-cloud-static/Camden.SR1/#_using_the_eurekaclient
 https://jmnarloch.wordpress.com/2015/09/02/spring-cloud-fixing-eureka-application-status/
 Spring Cloud: Fixing Eureka application status
 关于erueka 健康检查的 文章
+
+https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
+show4.png 系统架构图 
