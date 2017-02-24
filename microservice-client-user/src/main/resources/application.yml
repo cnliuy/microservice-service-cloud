@@ -1,5 +1,19 @@
 server:
   port: 7901
-  
+
+spring:
+  application:
+    name: microservice-client-user
+    
 user: 
   userServicePath: http://localhost:7900/simple/
+
+
+
+eureka:
+  client:
+    service-url:
+      defultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true   #set show ipadress
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
