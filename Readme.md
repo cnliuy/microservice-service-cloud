@@ -17,3 +17,7 @@
 http://projects.spring.io/spring-cloud/  右侧 （手册  Reference）
 http://cloud.spring.io/spring-cloud-static/Camden.SR1/#netflix-eureka-client-starter
 
+Github 地址：
+https://github.com/cnliuy/microservice-service-cloud.git
+
+
