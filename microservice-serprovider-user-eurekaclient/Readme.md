@@ -16,3 +16,13 @@ Spring Cloud: Fixing Eureka application status
 
 https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
 show4.png 系统架构图 
+
+--------------
+重点：
+
+负载均衡问题 ，两个本项目，在 application.yml中，分别设置不同的端口 启动即可。
+客户端通过 ribbon 和 eureka ，是这两个同项目（不同端口），实现负载均衡。由于配置
+在客户端即ribbon上配置的，所以称为 客户端负载均衡。
+
+
+

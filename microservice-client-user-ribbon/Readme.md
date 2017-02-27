@@ -1,3 +1,10 @@
+###2.添加  ribbon自定义功能
+添加 TestConfiguration.class
+修改 MicroserviceClientUserRibbonApplication.class
+       添加注释  @RibbonClient(name = "microservice-serprovider-user-eurekaclient", configuration = TestConfiguration.class)
+       
+TestConfiguration.class 放在 com.liuy.cloud 外面，不在  MicroserviceClientUserRibbonApplication.class 类的扫包描内。才能完成定制化开发。       
+
 ###1.添加  ribbon 功能。
 参考: http://cloud.spring.io/spring-cloud-static/Camden.SR3/#netflix-ribbon-starter
 
