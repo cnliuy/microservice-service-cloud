@@ -19,3 +19,4 @@ eureka:
 microservice-serprovider-user-eurekaclient:   #be service project 's application.name
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
