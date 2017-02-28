@@ -1,4 +1,13 @@
 ###3.使用 ribbon properties 设置 
+application.yml配置文件：
+ 
+   microservice-serprovider-user-eurekaclient:
+     ribbon:
+       NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+       
+   #会让 microservice-serprovider-user-eurekaclient 使用随机分配的负载均衡方式
+   #其他未做配置的微服务，依旧采用轮询的负载均衡方式。10 4.6 Ribbon --- client 中有详述
+
 
 ###2.添加 ribbon自定义功能
 添加 TestConfiguration.class
