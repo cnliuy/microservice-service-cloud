@@ -11,9 +11,10 @@
 	<modules>
 		<module>microservice-client-user</module>
 		<module>microservice-serviceprovider-user</module>
-		<module>microservice-discovery-eurak</module>
-		<module>microservice-serprovider-user-eurekaclient</module>
+		<module>microservice-discovery-eurak</module>		
 		<module>microservice-client-user-ribbon</module>
+		<module>microservice-client-user-ribbon-prop</module>
+		<module>microservice-serprovider-user-eurekaclient</module>
 	</modules>
 	
 	<properties>
